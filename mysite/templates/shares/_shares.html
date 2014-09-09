@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title></title>
+    <meta content='content=text/html; charset=utf-8'>
+<style>
+.a
+{
+float:left;
+width:45px;
+}
+</style>
+  </head>
+  <body>
+
+
+
+
+{{now}}&nbsp&nbsp&nbsp{{dw}}<br>
+As screnner <a href='http://finviz.com/'>finviz.com</a><br>
+( USA, Average Vol>200K, ...)
+<br>
+	<div style='float:left; margin-left:48px; width:137px;border: solid 1px ; text-align:center; '>5-10$</div>
+	<div style='float:left; width:137px;border: solid 1px ; text-align:center; '>10-20$</div>
+	<div style='float:left; width:137px;border: solid 1px ; text-align:center; '>20-50$</div>
+	<div style='clear: both;'></div>
+
+<form action='' method="post">{% csrf_token %}
+
+	<div class='a'><a href='http://finviz.com/screener.ashx?v=111&f=exch_nyse,geo_usa,sec_basicmaterials,sh_avgvol_o200,sh_price_5to10&o=-industry' target='_blank''>bm_list</a></div>
+	{% for i in bm_list_ %}
+		<div style=' float:left; width:35px;'>
+			<input type='text' name='bm{{forloop.counter}}' value={{i}} size='2' style='font-size:12px; text-align:center;'>
+		</div>
+	{% endfor %}
+	<br><br>
+	<div class='a'><a href='http://finviz.com/screener.ashx?v=111&f=exch_nyse,geo_usa,sec_consumergoods,sh_avgvol_o200,sh_price_5to10&o=-industry' target='_blank''>cg_list</a></div>
+	{% for i in cg_list_ %}
+		<div style=' float:left; width:35px;'>
+			<input type='text' name='cg{{forloop.counter}}' value={{i}} size='2' style='font-size:12px; text-align:center;'>
+		</div>
+	{% endfor %}
+
+	<br><br>
+	<div class='a'><a href='http://finviz.com/screener.ashx?v=111&f=exch_nyse,geo_usa,sec_industrialgoods,sh_avgvol_o200,sh_price_5to10&o=-industry' target='_blank' style='float:left'>ig_list</a></div>
+	{% for i in ig_list_ %}
+		<div style=' float:left; width:35px;'>
+			<input type='text' name='ig{{forloop.counter}}' value={{i}} size='2' style='font-size:12px; text-align:center;'>
+		</div>
+	{% endfor %}
+
+	<br><br>
+	<div class='a'><a href='http://finviz.com/screener.ashx?v=111&f=exch_nyse,geo_usa,sec_technology,sh_avgvol_o200,sh_price_5to10&o=-industry' target='_blank' style='float:left'>th_list</a></div>
+	{% for i in th_list_ %}
+		<div style=' float:left; width:35px;'>
+			<input type='text' name='th{{forloop.counter}}' value={{i}} size='2' style='font-size:12px; text-align:center;'>
+		</div>
+	{% endfor %}
+
+	<br><br>
+	<div class='a'><a href='http://finviz.com/screener.ashx?v=111&f=exch_nyse,geo_usa,sec_financial,sh_avgvol_o200,sh_price_5to10&o=-industry' target='_blank' style='float:left'>fn_list</a></div>
+	{% for i in fn_list_ %}
+		<div style=' float:left; width:35px;'>
+			<input type='text' name='fn{{forloop.counter}}' value={{i}} size='2' style='font-size:12px; text-align:center;'>
+		</div>
+	{% endfor %}
+
+	<br><br><input type="submit" value="changing portfolio">
+</form>
+<hr>	
+
+<a href='/shares/get_quote_now'>Get quotes for day. </a><bm>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

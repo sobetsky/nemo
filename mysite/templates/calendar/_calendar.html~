@@ -1,0 +1,376 @@
+<table width=720px><td align="center" class="calendar" width="100%">
+<h1 class="calendar-title">Economic Calendar</h1>
+<table border="0" cellpadding="1" cellspacing="0" class="calendar" width="100%">
+<tr class="calendar-header">
+<td align="right" width="10%"><b>Mon</b> Jul 28</td>
+<td align="center" width="2%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left" width="20%">Release</td>
+<td align="left" width="10%">Impact</td>
+<td align="left" width="5%">For</td>
+<td align="right" width="10%">Actual</td>
+<td align="right" width="10%">Expected</td>
+<td align="right" width="10%">Prior</td>
+<td width="3%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">10:00 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Pending Home Sales</td>
+<td align="left"><img alt="" border="0" height="10" src="../static/gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jun</td>
+<td align="right"><span style="color:#aa0000;">-1.1%</span></td>
+<td align="right">-0.8%</td>
+<td align="right">6.0%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+</table><img alt="" border="0" height="20" src="gfx/nic2x2.gif" width="10"/><br/>
+<table border="0" cellpadding="1" cellspacing="0" class="calendar" width="100%">
+<tr class="calendar-header">
+<td align="right" width="10%"><b>Tue</b> Jul 29</td>
+<td align="center" width="2%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left" width="20%">Release</td>
+<td align="left" width="10%">Impact</td>
+<td align="left" width="5%">For</td>
+<td align="right" width="10%">Actual</td>
+<td align="right" width="10%">Expected</td>
+<td align="right" width="10%">Prior</td>
+<td width="3%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">9:00 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Case-Shiller 20-city Index</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">May</td>
+<td align="right"><span style="color:#aa0000;">9.3%</span></td>
+<td align="right">10.0%</td>
+<td align="right">10.8%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">10:00 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Consumer Confidence</td>
+<td align="left"><img alt="" border="0" height="10" src="../../gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right"><span style="color:#008800;">90.9</span></td>
+<td align="right">85.6</td>
+<td align="right">86.4</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+</table><img alt="" border="0" height="20" src="gfx/nic2x2.gif" width="10"/><br/>
+<table border="0" cellpadding="1" cellspacing="0" class="calendar" width="100%">
+<tr class="calendar-header">
+<td align="right" width="10%"><b>Wed</b> Jul 30</td>
+<td align="center" width="2%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left" width="20%">Release</td>
+<td align="left" width="10%">Impact</td>
+<td align="left" width="5%">For</td>
+<td align="right" width="10%">Actual</td>
+<td align="right" width="10%">Expected</td>
+<td align="right" width="10%">Prior</td>
+<td width="3%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">7:00 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">MBA Mortgage Index</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">07/26</td>
+<td align="right">-2.2%</td>
+<td align="right">NA</td>
+<td align="right">2.4%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">8:15 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">ADP Employment Change</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_3.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right"><span style="color:#008800;">218K</span></td>
+<td align="right">215K</td>
+<td align="right">281K</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">GDP-Adv.</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_3.gif" width="10"/></td>
+<td align="left">Q2</td>
+<td align="right"><span style="color:#008800;">4.0%</span></td>
+<td align="right">3.2%</td>
+<td align="right">-2.1%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Chain Deflator-Adv.</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Q2</td>
+<td align="right"><span style="color:#008800;">2.0%</span></td>
+<td align="right">2.1%</td>
+<td align="right">1.3%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">10:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Crude Inventories</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">07/26</td>
+<td align="right">-3.697M</td>
+<td align="right">NA</td>
+<td align="right">-3.969M</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr>
+<td align="right">2:00 PM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">FOMC Rate Decision</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_3.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">0.25%</td>
+<td align="right">0.25%</td>
+<td align="right">0.25%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+</table><img alt="" border="0" height="20" src="gfx/nic2x2.gif" width="10"/><br/>
+<table border="0" cellpadding="1" cellspacing="0" class="calendar" width="100%">
+<tr class="calendar-header">
+<td align="right" width="10%"><b>Thu</b> Jul 31</td>
+<td align="center" width="2%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left" width="20%">Release</td>
+<td align="left" width="10%">Impact</td>
+<td align="left" width="5%">For</td>
+<td align="right" width="10%">Actual</td>
+<td align="right" width="10%">Expected</td>
+<td align="right" width="10%">Prior</td>
+<td width="3%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-now">
+<td align="right">7:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Challenger Job Cuts</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Initial Claims</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">07/26</td>
+<td align="right">-</td>
+<td align="right">310K</td>
+<td align="right">310K</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Continuing Claims</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">07/19</td>
+<td align="right">-</td>
+<td align="right">2525K</td>
+<td align="right">2525K</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Employment Cost Index</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Q2</td>
+<td align="right">-</td>
+<td align="right">0.4%</td>
+<td align="right">0.4%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">9:45 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Chicago PMI</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">60.0</td>
+<td align="right">61.8</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">10:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Natural Gas Inventories</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">07/26</td>
+<td align="right">-</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+</table><img alt="" border="0" height="20" src="gfx/nic2x2.gif" width="10"/><br/>
+<table border="0" cellpadding="1" cellspacing="0" class="calendar" width="100%">
+<tr class="calendar-header">
+<td align="right" width="10%"><b>Fri</b> Aug 01</td>
+<td align="center" width="2%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left" width="20%">Release</td>
+<td align="left" width="10%">Impact</td>
+<td align="left" width="5%">For</td>
+<td align="right" width="10%">Actual</td>
+<td align="right" width="10%">Expected</td>
+<td align="right" width="10%">Prior</td>
+<td width="3%"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Nonfarm Payrolls</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_3.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">250K</td>
+<td align="right">220K</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Nonfarm Private Payrolls</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">240K</td>
+<td align="right">225K</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Unemployment Rate</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_3.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">6.1%</td>
+<td align="right">6.1%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Hourly Earnings</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">0.2%</td>
+<td align="right">0.2%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Average Workweek</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">34.5</td>
+<td align="right">34.5</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Personal Income</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">Jun</td>
+<td align="right">-</td>
+<td align="right">0.5%</td>
+<td align="right">0.4%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Personal Spending</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jun</td>
+<td align="right">-</td>
+<td align="right">0.2%</td>
+<td align="right">0.4%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">8:30 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">PCE Prices - Core</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jun</td>
+<td align="right">-</td>
+<td align="right">0.2%</td>
+<td align="right">0.2%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">9:55 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Michigan Sentiment - Final</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">82.5</td>
+<td align="right">82.0</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">10:00 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">ISM Index</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">56.0</td>
+<td align="right">55.9</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">10:00 AM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Construction Spending</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_1.gif" width="10"/></td>
+<td align="left">Jun</td>
+<td align="right">-</td>
+<td align="right">-0.5%</td>
+<td align="right">0.3%</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">2:00 PM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Auto Sales</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+<tr class="calendar-future">
+<td align="right">2:00 PM</td>
+<td align="center" width="10"><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+<td align="left">Truck Sales</td>
+<td align="left"><img alt="" border="0" height="10" src="gfx/calendar/impact_2.gif" width="10"/></td>
+<td align="left">Jul</td>
+<td align="right">-</td>
+<td align="right">NA</td>
+<td align="right">NA</td>
+<td><img alt="" border="0" height="2" src="gfx/nic2x2.gif" width="2"/></td>
+</tr>
+</table><img alt="" border="0" height="20" src="gfx/nic2x2.gif" width="10"/><br/>
+</td></table>

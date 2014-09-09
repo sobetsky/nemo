@@ -1,0 +1,33 @@
+{% load staticfiles i18n %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="" charset='utf-8'>
+        <title>
+            {% block title %}{% endblock %}
+        </title>
+        {% block stylesheets %}
+		<link href="../css/base.css" rel="stylesheet" type="text/css" media="screen" />
+        {% endblock %}
+        {% block javascript %}{% endblock %}
+        {% block extra_head %}{% endblock %}
+    </head>
+    <body>
+        <header class="header" style=' width: 995px; margin-left: auto; margin-right: auto; background: #ddd; padding: 10px;'>
+            {% block header %}header{% endblock %}
+        </header>
+        <div class="page" style=' width: 995px; margin-left: auto; margin-right: auto; background: #ccc; padding: 10px;'>
+            {% block page %}page{% endblock %}
+        </div>
+		<footer class='footer' style=' width: 995px; margin-left: auto; margin-right: auto; background: #bbb; padding: 10px; text-align: center;'>
+			{% block footer %}footer{% endblock %}
+		</div>
+    </body>
+</html>
+
+
+
+
+
+
+

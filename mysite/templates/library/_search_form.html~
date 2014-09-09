@@ -1,0 +1,113 @@
+<html>
+<head>
+    <title>search</title>
+    <meta content="" charset='utf-8'>
+<style>
+
+.form_search
+{
+background-color:dfdfdf;
+padding:5px;
+width:380px;
+}
+
+li
+{
+color:red;
+}
+</style>
+</head>
+
+<body>
+<img src='/static/img/books.jpg' width='50' height='50'/> 
+<a href='/'>home</a>
+&nbsp&nbsp&nbsp
+<a href='/library/enter/'>Enter_form</a>
+<hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Введите данные для поиска.</b>
+<div class='form_search'>
+	<fieldset>
+	<legend>Enter the <b>part from</b> the <b>title</b>. </legend>
+	{% if errors_title %}
+		<ul>
+			{% for error in errors_title %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+	<form id='form_title' action='' method='POST'>{% csrf_token %}
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type='text' name='q_title' size='30'>
+		<input type='submit' value='search'>
+	</fieldset>
+	</form>
+	<hr>
+	<fieldset>
+	<legend>Enter the <b>part from</b> the <b>author's last name</b>. </legend>
+	{% if errors_author %}
+		<ul>
+			{% for error in errors_author %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+	<form id='form_author' action='' method='POST'>{% csrf_token %}
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type='text' name='q_author' size='30'>
+		<input type='submit' value='search'>
+	</fieldset>
+	</form>
+	<hr>
+	<fieldset>
+	<legtnd>Enter the <b>part from</b> the <b>publisher</b>. </legend><br>
+	{% if errors_publisher %}
+		<ul>
+			{% for error in errors_publisher %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+	<form id='form_publisher' action='' method='POST'>{% csrf_token %}
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<input type='text' name='q_publisher' size='30'>
+		<input type='submit' value='search'>
+	</form>
+</div>
+<br>
+<hr>
+
+{% if books%}
+	<b><i>book title: <i></b><br>{{ books.0 }}
+{% endif %}
+
+{% if authors%}
+	<i>author: <i><br>{{ authors.0 }}
+{% endif %}
+
+{% if publishers%}
+	<i>publisher: <i><br>{{ publishers.0 }}
+{% endif %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>lab</title>
+<meta content='content=text/html; charset=utf-8'>
+
+<style>
+label{
+display:block;
+width:100px;
+float:left;
+}
+select{
+width: 210px;
+}
+</style>
+
+<script type='text/javascript'>
+
+function alert_avet(){
+	aven('happened:')
+}
+
+function multipleSelected(f){
+	optionText = ""
+	
+
+	for(i=0; i<f.authors.length; i++){
+		if (f.authors[i].selected) { 
+			optionText += f.authors[i].text + " "
+			
+			var sl=document.getElementById('id_authors');
+			var sl_=document.getElementById('selected_add');
+			//sl.options[sl.options.length] = new Option('text', 'value');
+			sl_.options[sl_.options.length] = new Option(f.authors[i].text, f.authors[i].value);
+			sl.remove(sl.selectedIndex);
+
+			var p=document.createElement('p');
+			document.body.appendChild(p);
+			var t=document.createTextNode(f.authors[i].text);
+			p.appendChild(t);
+			
+		}
+	}
+
+}
+
+
+window.onload=function(){
+	var sl=document.getElementById('id_authors');
+	sl.authors.selected.onclick=alert_avet;
+}
+</script>
+
+</head>
+
+
+
+<body>
+<img src='../../static/img/bl.jpg' width='50' height='50'/>
+<hr>
+<form id='book_form' action='' method='post'>{% csrf_token %} 
+	<div class='field' style='float:left;'>
+		<label><b>Author:</b><br><small></label>
+		{{ form_book.authors }}
+	</div>
+
+	<div style='float:left;'>
+		<input type=button value=">" onClick='javascript:multipleSelected(this.form)'>
+	</div>
+	<div>
+		<select id='selected_add' multiple name='authors_[]' size=4></select>
+
+
+	</div>
+	<input type=submit value=">>>" '>
+</form>
+
+
+<br>
+{{ authors }}
+
+
+</body>
+</html>
+
+
+<html>
+ <head>
+  <script type="text/javascript">
+
+   function changeFunc() {
+    var selectBox = document.getElementById("selectBox");
+    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+    alert(selectedValue);
+   }
+
+  </script>
+ </head>
+ <body>
+  <select id="selectBox" onchange="changeFunc();">
+   <option value="1">Option #1</option>
+   <option value="2">Option #2</option>
+  </select>
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

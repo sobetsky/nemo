@@ -1,0 +1,16 @@
+{% extends "__l_right_sidebar.html" %}
+
+{% block title %}calendar{% endblock %}
+{% block javascript %}
+	<script type='text/javascript'>
+		
+	</script>
+{% endblock %}
+
+{% block content %}	
+	<div style="font-family:Arial; font-size:12pt;">
+		{% include 'calendar/_calendar.html' %}
+	</div>
+{% endblock %}
+
+

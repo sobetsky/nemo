@@ -1,0 +1,12 @@
+
+<form action='' method='post'>{% csrf_token %}
+	<label for='username'>log:</label>
+	<input type='text' name='username' value='sid' id='username' size='10' style='font-size:10px'>
+	
+	<label for='password'>pas:</label>
+	<input type='password' name='password' value='' id='password' size='10' style='font-size:10px'>
+	
+	<input type='submit' value='login' style='font-size:10px' />
+	<input type='hidden' name='next' value='{{next|escape}} />
+</forme>
+

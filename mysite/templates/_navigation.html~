@@ -1,0 +1,133 @@
+<style>
+ul, li{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.menu{
+	margin-bottom:5px;
+	border-bottom: 5px solid #bb0000;
+	width:100%; height:25px; margin-top:0px; 
+	background:#555;
+	/*font: bold 14px/25px Arial, sans-serif; /* стили шрифта */
+}
+.menu li{
+	margin-top:1px;
+	float:left;
+	border-right:1px solid #999;
+	height:25px;
+	position:relative;
+    display:block;
+}
+.menu li a{
+	float:left;
+	display:block;
+	padding:3px 35px;
+	margin-right:0px;
+	text-transform: uppercase;
+	color:#fff;
+	text-align:center;
+}
+.menu li a:hover{
+	background:#888
+}
+.menu li.active a{
+	background:#888	
+}
+
+
+.menu ul{
+    position:absolute;
+	margin-top:25px;
+    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+}
+
+.menu ul a{
+	margin-left:-70px;
+	width:200px;
+    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+    display:block;
+}
+.menu li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+    left:0; /* Приносим его обратно на экран, когда нужно */
+    opacity:1; /* Делаем непрозрачным */
+}
+
+.menu li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+    background:#6b0c36;
+    background:rgba(1,12,54,0.75); /* Выглядит полупрозрачным */
+    text-decoration:underline;
+}
+
+.menu li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+    text-decoration:none;
+    -webkit-transition:-webkit-transform 0.075s linear;
+}
+.menu li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+    background:#555;
+    background:rgba(51,51,51,0.75); /* Будет полупрозрачным */
+    text-decoration:underline;
+    -moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+}
+
+</style>
+
+
+	<ul class="menu">
+		<li><a href='../home/'>Home</a></li>
+		<li><a href=''>News</a>
+			<ul>
+				<li><a href='http://www.bloomberg.com/tv/'>bloomberg.com/tv</a></li>
+				<li><a href='http://www.reuters.com/video'>reuters.com/video</a></li>
+				<li><a href='http://rbctv.rbc.ru/live'>rbctv.rbc.ru/live</a></li>
+				<li><a href='http://finviz.com/'>finviz.com</a></li>
+				<li><a href='https://www.google.com/finance?q=spy'>google.com/finance spy</a></li>
+				<li><a href='http://nashidni.org/'>nashidni.org</a></li>
+			</ul>
+		</li>
+		<li><a href='../calendar/'>Calendar</a>
+			<ul>
+				<li><a href="../calendar/">Parser_EconomicCalendar</a></li>
+			</ul>
+		
+		</li>
+		<li><a href='../chart/'>Chart</a>
+			<ul>
+                <li><a href="../chart/get_info/">get info</a></li>
+            </ul>
+		</li>
+		<li><a href='../library/'>Labrary</a>
+			<ul>
+                <li><a href="/library/enter/">Enter</a></li>
+                <li><a href="/library/search/">Search</a></li>
+                <li><a href="/admin/">Admin</a></li>
+            </ul>
+		</li>
+		<li><a href='../contact/'>Contact us</a></li>
+		<li><a href='../lab/'>Lab</a>
+			<ul>
+				<li><a href='../lab/lab1/'>lab1</a></li>
+			</ul>
+	</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

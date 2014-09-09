@@ -1,0 +1,47 @@
+
+{% extends "__base.html" %}
+
+{% block header %}
+	<div style='font-family: Times;'>
+		<div class='hello_foto' style=' float:left;'>
+			<img align='left' height=140px wigth=115px src=' ../static/img/Baruh.jpg'>
+		</div>
+		<div style='padding-left:140px;  background:#aaa'>
+			Hello, today <span style='color:green;'>{{now}}</span> - <span style='color:blue;'>{{dw}}</span> and this is a page mysite.
+		</div>
+	</div>
+
+
+	<div class='logout' style=' font-family: Times; float:right; margin-right:30px; margin-top: -20px;'>
+		<a href='../accounts/login/'>login</a> | <a href='../accounts/logout/'>logout</a> | <a href='../accounts/register/'>registration</a>
+	</div>
+	<div class='note'   style=' font-family: Times; margin-left:10px; width:570px; height:50px;float:left; margin-top:10px; background:#ccc'>
+		<marquee ><b>{{s1}}{{s2}}{{s3}}</b></marquee></br>
+		<i style="float:right; margin-right:20px;">Бернард Барух</i>
+	</div>
+	<div class='note_'  style=' margin-left:10px; width:570px; height:50px;float:left; margin-top:10px; '>
+		<i style=" font-family: Times; float:left; margin-left:0px; font-size:14px; text-align: justify; color:blue">(В оригинале этой фразе, периодически, одно слово случайным образом переставляется. Интересно, изменится ли смысл? В следующий раз фразы и задания будут меняться. )</i>
+	</div>
+
+	<div style='border: 1px solid green; margin-left:690px; width:305px; height:115px;'>
+			
+	</div>
+
+	<div style='clear: both;'></div>
+
+<div  style='margin-top:5px;'>
+	{% include '_navigation.html' %}
+</div>
+	
+{% endblock %}
+
+
+{% block page %}
+<div>
+	<div class='content' style=' font-family: Times; font-size:16px; float:left; width: 710px; text-align: justify'>{% block content %}{% endblock %}</div>
+	<div class='sider' style=' font-family: Times; font-size:16px; border: 1px solid green; float:right; width: 280px; '>{% block sider %}{% endblock %}</div>
+	<div style='clear: both;'></div>
+</div>
+{% endblock %}
+
+

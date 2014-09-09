@@ -1,0 +1,315 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>enter_form</title>
+    <meta content='content=text/html; charset=utf-8'>
+<style>
+
+.author_form{
+background-color:#dfdfdf;
+border:1px solid black;
+padding-top:30px;
+float:left;
+width:330px;
+}
+.author_form label{
+display:block;
+width:100px;
+float:left;
+}
+.author_form li{
+color:red;
+}
+
+
+.publisher_form{
+margin-left:5px;
+background-color:#dfdfdf;
+border:1px solid black;
+padding-top:10px;
+float:left;
+width:330px;
+}
+.publisher_form_ul{
+width:290px;
+border:1px solid black;
+}
+.publisher_form_ul ul{
+list-style: none;
+margin-left:-30px;
+}
+.publisher_form_ul label{
+float:left;
+display:block;
+width:80px;
+}
+.publisher_form ul.errorlist{
+margin:0;
+padding:0;
+}
+.publisher_form .errorlist li{
+background-color:red;
+color:white;
+display:block;
+font-size:14px;
+margin-top:10px;
+margin-bottom:-2px;
+padding:2px;
+}
+
+
+
+.book_form
+{
+margin-top:10px;
+background-color:#dfdfdf;
+border:1px solid black;
+padding-top:10px;
+padding-bottom:10px;
+float:left;
+width:668px;
+}
+.button
+{
+text-align:center;
+margin-top:5px;
+}
+.book_form label{
+float:left;
+display:block;
+width:110px;
+}
+
+.book_form ul.errorlist{
+margin:0;
+padding:0;
+}
+.book_form .errorlist li{
+background-color:red;
+color:white;
+display:block;
+font-size:14px;
+margin-top:10px;
+margin-bottom:-2px;
+padding:2px;
+}
+
+.book_form select{
+width: 210px;
+}
+.book_form #id_title{
+width: 205px;
+}
+.book_form #id_publication_date{
+width: 80px;
+}
+</style>
+
+<script type='text/javascript'>
+
+function select_ondblclick(){
+	var s=document.getElementById('id_authors');
+	var t=s.options[s.selectedIndex].text
+	var v=s.options[s.selectedIndex].value
+	
+	var s_=document.getElementById('id_authors_');
+	s_.options[s_.options.length] = new Option(t, v);
+	s.options[s.selectedIndex].remove()
+}
+
+function select_back_ondblclick(){
+	var s=document.getElementById('id_authors_');
+	var t=s.options[s.selectedIndex].text;
+	var v=s.options[s.selectedIndex].value;
+	
+	var s_=document.getElementById('id_authors');
+	s_.options[s_.options.length] = new Option(t, v);
+	s.options[s.selectedIndex].remove();
+}
+	
+function select_send(){
+	/*optionText = ""
+	var f=document.getElementById('book_form');
+	for(i=0; i<f.authors.length; i++) {
+		if (f.authors[i].selected) { 
+		optionText += f.authors[i].text + " " ;
+		}
+	}
+	//alert(optionText);
+
+	//optionText_ = "";
+	s_=document.getElementById('id_authors_');
+	for(i=0; i<s_.options.length; i++) {
+		if (s_.options[i]) {
+		optionText_ += s_.options[i].text + " " ;
+		}
+	}
+	//alert(optionText_);
+	*/
+	s_=document.getElementById('id_authors_');
+	s=document.getElementById('id_authors');
+	for(i=0; i<s_.options.length; i++) {
+		
+		var no=s.options[s.options.length] = new Option(s_.options[i].text, s_.options[i].value, isDefaultSelected=false, isSelected=true);
+	}
+	//	optionText +=i;
+	/*
+	//optionText = ""
+	f=document.getElementById('book_form');
+	for(i=0; i<f.authors.length; i++) {
+		if (f.authors[i].selected) { 
+		optionText += f.authors[i].text + " " ;
+		}
+	}
+	//alert(optionText);
+	*/
+	}
+
+window.onload=function(){
+
+	var s=document.getElementById('id_authors');
+	s.ondblclick=select_ondblclick;
+	
+	var s_=document.getElementById('id_authors_');
+	s_.ondblclick=select_back_ondblclick;
+
+	//alert('The page is loaded');
+}
+
+</script>
+
+
+</head>
+<body>
+<img src='/static/img/books.jpg' width='50' height='50'/> 
+<a href='/'>home</a>
+&nbsp&nbsp&nbsp
+<a href='/library/search/'>search_form</a>
+&nbsp&nbsp&nbsp
+<a href='/admin/'>admin</a>
+<hr>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>Enter dates.</b>
+
+<br>
+<div class='author_form'>
+
+	<form id='author_form' action='' method='post'>{% csrf_token %}
+	<fieldset>
+	<legend>Etnet the data of the <b>Author</b>.</legend>
+		
+		<label><b>first name:</b></label>
+			{% if errors_first_name %}
+		<ul>
+			{% for error in errors_first_name %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+		<label>&nbsp</label>
+			{% endif %}
+			<input type='text' name='first_name' size='20' value=''><br>
+
+		<label><b>last name:</b></label>
+			{% if errors_second_name %}
+		<ul>
+			{% for error in errors_second_name %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+		<label>&nbsp</label>
+			{% endif %}
+			<input type='text' name='second_name' size='20' value=''><br>
+		<label><i>e-mail:</i></label>
+			<input type='text' name='e_mail' size='20' value=''>
+		<hr>
+			<div class='button'><input type='submit' value='save'></div>	
+			<input type='hidden' name='author_form' value='' />
+	</fieldset>
+	</form>
+</div>
+
+
+
+<div class='publisher_form'>	
+	<form id='publisher_form' action='' method='post'>{% csrf_token %}
+	<fieldset>
+		<legend>Enter the data of the <b>Pablisher</b>.</legend>
+			<div class='publisher_form_ul'><ul>{{ form_publisher.as_ul }}</ul></div>
+		<hr>
+			<div class='button'><input type='submit' value='save'></div>
+			<input type='hidden' name='publisher_form' value='' />
+	</fieldset>
+	</form>
+</div>
+<div style='clear:both;'></div>
+
+
+
+<div class='book_form'>	
+	<form id='book_form' action='' method='post'>{% csrf_token %} 
+	<fieldset>
+		<legend>Enter the data of the <b>Book</b>.</legend>
+
+			<div class='field'>
+				{{ form_book.title.errors }}
+				<label><b>Title:</b></label>
+				{{ form_book.title }}
+			</div>
+			<div class='field'>
+				{{ form_book.publisher.errors }}
+				<label><b>Publisher:</b></label> 
+				{{ form_book.publisher }}
+			</div>
+			<div>
+				{{ form_book.authors.errors }}
+			</div>
+			<div class='field' style='float:left;'>
+				<label><b>Author:</b><br><small><i>(Select one or more authors, press ctrl.)</i></small></label>
+				{{ form_book.authors }}
+			</div>
+
+			<div style='float:left'>
+				<input type=button value=">" onClick='javascript:select_ondblclick()'><br>
+				<input type=button value="<" onClick='javascript:select_back_ondblclick()'>
+			</div>
+
+			<div>
+				 <select id="id_authors_" multiple size=4 value=authors_[]></select>
+			</div>
+			<div style='clear:both;'></div>
+			
+			<div class='field'>
+				{{ form_book.publication_date.errors }}
+				<label>Publication date:</label> 
+				{{ form_book.publication_date }}
+			</div>
+		<hr>
+			<div class='button'><input type='submit' value='send' onClick='javascript:select_send()' /></div>
+			<input type='hidden' name='book_form' value='' />		
+	</fieldset>
+	</form>
+</div>
+<div style='clear:both;'></div>
+<br>
+
+
+</body>
+</html>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+

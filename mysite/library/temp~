@@ -1,0 +1,26 @@
+<label><b>title:</b></label>
+			<input type='text' name='title' size='30' value=''>
+		<hr>
+		<label><b>publisher:</b></label>(select a publisher from the list)...<br>
+		<label>&nbsp</label>
+		<select id='sel_publisher' name='publisher' size='1'>
+			<option>Рашин Ламбашин</option>
+			{% for publisher in publishers%}
+				<option>{{ publisher }}</option>
+			{% endfor %}
+		</select>
+		<hr>
+		
+		<hr>		
+		<label><b>author:</b></label></label>(select one or more authors, use Ctrl)<br>
+		<label>&nbsp</label>
+		<select id='sel_author' multiple name='author' syze='3'>
+			{% for author in authors%}
+				<option>{{ author }}</option>
+			{% endfor %}
+		</select>
+		<hr>
+		<label><i>publication date:</i></label>
+			<input type='text' name='publication_date' size='15' value=''>
+		<hr>
+			<div class='button'><input type='submit' value='save'></div> 
