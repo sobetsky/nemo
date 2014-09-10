@@ -8,11 +8,8 @@ from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 import random 
 
-
-
-
   
-###  home_0  ############################################################################
+###  home_0  ################################################################
 
 #@login_required
 def page_0(request):
@@ -35,16 +32,16 @@ def page_0(request):
 	#str_+="<li>2</li></ul>"
 	str_+="<hr>"
 	return HttpResponse(str_) 
- 	'''
+	'''
 	#return render_to_response('home.html')
 	return HttpResponseRedirect('home/')
 
-###  profile   #########################################################################
+###  profile   ###############################################################
 def profile_(request):
 	
 	return HttpResponseRedirect('home/')
 
-###  /home  ############################################################################
+###  /home  ##################################################################
 
 def page_home(request):
 	now, dw=now_weeck()
@@ -53,7 +50,7 @@ def page_home(request):
 
 	return render_to_response('home.html', locals())
 
-###  /calendar  ########################################################################
+###  /calendar  ##############################################################
 
 def page_calendar(request):
 	now, dw=now_weeck()
@@ -62,8 +59,7 @@ def page_calendar(request):
 	return render_to_response('calendar/calendar.html', locals())
 
 
-### FUNCTIONS
-###############################################################################
+### FUNCTIONS ################################################################
 def now_weeck():
 	now_=datetime.datetime.now()
 	now=now_.strftime('%d %b.%Y')
@@ -72,7 +68,7 @@ def now_weeck():
 	dw=w[n]
 	return(now, dw)
 
-#-------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------
 
 def rendom_word():
 

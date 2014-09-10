@@ -1,39 +1,13 @@
-[Sun Jul 27 22:00:54.438835 2014] [:error] [pid 3902] [client 192.168.0.100:48532] mod_wsgi (pid=3902): Exception occurred processing WSGI script '/srv/vhosts/mysite/mysite/wsgi.py'.
-[Sun Jul 27 22:00:54.438892 2014] [:error] [pid 3902] [client 192.168.0.100:48532] Traceback (most recent call last):
-[Sun Jul 27 22:00:54.438925 2014] [:error] [pid 3902] [client 192.168.0.100:48532]   File "/usr/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
-[Sun Jul 27 22:00:54.448977 2014] [:error] [pid 3902] [client 192.168.0.100:48532]     self.load_middleware()
-[Sun Jul 27 22:00:54.449005 2014] [:error] [pid 3902] [client 192.168.0.100:48532]   File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
-[Sun Jul 27 22:00:54.449380 2014] [:error] [pid 3902] [client 192.168.0.100:48532]     for middleware_path in settings.MIDDLEWARE_CLASSES:
-[Sun Jul 27 22:00:54.449397 2014] [:error] [pid 3902] [client 192.168.0.100:48532]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
-[Sun Jul 27 22:00:54.455756 2014] [:error] [pid 3902] [client 192.168.0.100:48532]     self._setup(name)
-[Sun Jul 27 22:00:54.455779 2014] [:error] [pid 3902] [client 192.168.0.100:48532]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
-[Sun Jul 27 22:00:54.455804 2014] [:error] [pid 3902] [client 192.168.0.100:48532]     self._wrapped = Settings(settings_module)
-[Sun Jul 27 22:00:54.455814 2014] [:error] [pid 3902] [client 192.168.0.100:48532]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 134, in __init__
-[Sun Jul 27 22:00:54.455828 2014] [:error] [pid 3902] [client 192.168.0.100:48532]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
-[Sun Jul 27 22:00:54.455850 2014] [:error] [pid 3902] [client 192.168.0.100:48532] ImportError: Could not import settings 'mysite1.settings' (Is it on sys.path?): No module named mysite1.settings
-[Mon Jul 28 21:48:08.557998 2014] [:error] [pid 4066] [client 192.168.0.100:40344] mod_wsgi (pid=4066): Exception occurred processing WSGI script '/srv/vhosts/mysite/mysite/wsgi.py'., referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.576597 2014] [:error] [pid 4066] [client 192.168.0.100:40344] Traceback (most recent call last):, referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.576639 2014] [:error] [pid 4066] [client 192.168.0.100:40344]   File "/usr/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__, referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.588245 2014] [:error] [pid 4066] [client 192.168.0.100:40344]     self.load_middleware(), referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.588288 2014] [:error] [pid 4066] [client 192.168.0.100:40344]   File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware, referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.588581 2014] [:error] [pid 4066] [client 192.168.0.100:40344]     for middleware_path in settings.MIDDLEWARE_CLASSES:, referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.588596 2014] [:error] [pid 4066] [client 192.168.0.100:40344]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__, referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.595126 2014] [:error] [pid 4066] [client 192.168.0.100:40344]     self._setup(name), referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.595197 2014] [:error] [pid 4066] [client 192.168.0.100:40344]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup, referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.595234 2014] [:error] [pid 4066] [client 192.168.0.100:40344]     self._wrapped = Settings(settings_module), referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.595247 2014] [:error] [pid 4066] [client 192.168.0.100:40344]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 134, in __init__, referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.595316 2014] [:error] [pid 4066] [client 192.168.0.100:40344]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e)), referer: http://mysite.com/calendar/
-[Mon Jul 28 21:48:08.595350 2014] [:error] [pid 4066] [client 192.168.0.100:40344] ImportError: Could not import settings 'mysite1.settings' (Is it on sys.path?): No module named mysite1.settings, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.274041 2014] [:error] [pid 3858] [client 192.168.0.100:60141] mod_wsgi (pid=3858): Exception occurred processing WSGI script '/srv/vhosts/mysite/mysite/wsgi.py'., referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.274098 2014] [:error] [pid 3858] [client 192.168.0.100:60141] Traceback (most recent call last):, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.274124 2014] [:error] [pid 3858] [client 192.168.0.100:60141]   File "/usr/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.292405 2014] [:error] [pid 3858] [client 192.168.0.100:60141]     self.load_middleware(), referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.293105 2014] [:error] [pid 3858] [client 192.168.0.100:60141]   File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.293492 2014] [:error] [pid 3858] [client 192.168.0.100:60141]     for middleware_path in settings.MIDDLEWARE_CLASSES:, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.293539 2014] [:error] [pid 3858] [client 192.168.0.100:60141]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.299086 2014] [:error] [pid 3858] [client 192.168.0.100:60141]     self._setup(name), referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.299123 2014] [:error] [pid 3858] [client 192.168.0.100:60141]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.299154 2014] [:error] [pid 3858] [client 192.168.0.100:60141]     self._wrapped = Settings(settings_module), referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.299168 2014] [:error] [pid 3858] [client 192.168.0.100:60141]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 134, in __init__, referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.299185 2014] [:error] [pid 3858] [client 192.168.0.100:60141]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e)), referer: http://mysite.com/calendar/
-[Tue Jul 29 23:47:06.299210 2014] [:error] [pid 3858] [client 192.168.0.100:60141] ImportError: Could not import settings 'mysite1.settings' (Is it on sys.path?): No module named mysite1.settings, referer: http://mysite.com/calendar/
+[Wed Sep 10 22:07:42.191597 2014] [:error] [pid 3980] [client 192.168.0.100:49283] mod_wsgi (pid=3980): Exception occurred processing WSGI script '/srv/vhosts/mysite/mysite/wsgi.py'.
+[Wed Sep 10 22:07:42.217339 2014] [:error] [pid 3980] [client 192.168.0.100:49283] Traceback (most recent call last):
+[Wed Sep 10 22:07:42.217366 2014] [:error] [pid 3980] [client 192.168.0.100:49283]   File "/usr/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 236, in __call__
+[Wed Sep 10 22:07:42.234423 2014] [:error] [pid 3980] [client 192.168.0.100:49283]     self.load_middleware()
+[Wed Sep 10 22:07:42.234442 2014] [:error] [pid 3980] [client 192.168.0.100:49283]   File "/usr/lib/python2.7/site-packages/django/core/handlers/base.py", line 45, in load_middleware
+[Wed Sep 10 22:07:42.234548 2014] [:error] [pid 3980] [client 192.168.0.100:49283]     for middleware_path in settings.MIDDLEWARE_CLASSES:
+[Wed Sep 10 22:07:42.234562 2014] [:error] [pid 3980] [client 192.168.0.100:49283]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 53, in __getattr__
+[Wed Sep 10 22:07:42.241223 2014] [:error] [pid 3980] [client 192.168.0.100:49283]     self._setup(name)
+[Wed Sep 10 22:07:42.241244 2014] [:error] [pid 3980] [client 192.168.0.100:49283]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in _setup
+[Wed Sep 10 22:07:42.241265 2014] [:error] [pid 3980] [client 192.168.0.100:49283]     self._wrapped = Settings(settings_module)
+[Wed Sep 10 22:07:42.241276 2014] [:error] [pid 3980] [client 192.168.0.100:49283]   File "/usr/lib/python2.7/site-packages/django/conf/__init__.py", line 134, in __init__
+[Wed Sep 10 22:07:42.241290 2014] [:error] [pid 3980] [client 192.168.0.100:49283]     raise ImportError("Could not import settings '%s' (Is it on sys.path?): %s" % (self.SETTINGS_MODULE, e))
+[Wed Sep 10 22:07:42.241307 2014] [:error] [pid 3980] [client 192.168.0.100:49283] ImportError: Could not import settings 'mysite1.settings' (Is it on sys.path?): No module named mysite1.settings

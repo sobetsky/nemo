@@ -8,15 +8,12 @@ from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 import random 
 
-Unused
-
-
   
 ###  home_0  ################################################################
 
 #@login_required
 def page_0(request):
-'''
+	'''
 	str_="<ul><a href='home/'><b>mysite.com/home</b></a></ul>"
 	str_+="<hr>"
 	str_+="<ul><a href='contact/'><b>mysite.com/contact</b></a></ul>"
@@ -35,7 +32,7 @@ def page_0(request):
 	#str_+="<li>2</li></ul>"
 	str_+="<hr>"
 	return HttpResponse(str_) 
-'''
+	'''
 	#return render_to_response('home.html')
 	return HttpResponseRedirect('home/')
 
